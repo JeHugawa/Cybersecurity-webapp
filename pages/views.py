@@ -8,4 +8,6 @@ from django.contrib.auth.decorators import login_required
 @login_required
 def homePageView(request):
 	return render(request, 'pages/index.html')
- 
+
+def listView(request):
+    return render(request, 'pages/list.html') 

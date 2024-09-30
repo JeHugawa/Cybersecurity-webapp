@@ -9,11 +9,16 @@
 		<tr>
 		<th style="text-align:left">Username: <td>{{user.username}} 
 		</table>
- 
- 
+  
         <form action='logout/' method="POST">
 			{% csrf_token %}
             <input type="submit" value="Logout"/>
         </form>
+
+        <form action='list/' method="GET">
+			{% csrf_token %}
+            <input type="submit" value="list"/>
+        </form>
+
     </body>
 </html>
