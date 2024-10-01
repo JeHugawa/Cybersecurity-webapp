@@ -5,7 +5,13 @@ An unsecure application for Cybersecurity course, implemention flaws from the [O
 
 See [vulnerabilities.md](./vulnerabilities.md).
 
-## running
+## Usage
 
 you can start the project with 
 `python manage.py runserver`
+
+| Username | password |
+|----------|----------|
+| admin    | admin    |
+| user     | kissa123 |
+
