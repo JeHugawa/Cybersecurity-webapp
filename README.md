@@ -3,18 +3,7 @@ An unsecure application for Cybersecurity course, implemention flaws from the [O
 
 ## Vulnerabilities
 
- - [ ] Injection
- - [ ] Broken Authentication
- - [x] Sensitive Data Exposure
- - [ ] XML External Entities (XXE)
- - [ ] Broken Access Control
- - [ ] Security Misconfiguration
- - [ ] Cross-Site Scripting (XSS)
- - [ ] Insecure Deserialization
- - [ ] Using Components with Known Vulnerabilities
- - [ ] Insufficient Logging & Monitoring
-
-You can find further details of the vulnerabilities in [vulnerabilities.md](./vulnerabilities.md).
+See [vulnerabilities.md](./vulnerabilities.md).
 
 ## running
 

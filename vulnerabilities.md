@@ -1,5 +1,7 @@
 # Vulnerabilities
 
+[OWASP list](https://owasp.org/www-project-top-ten/2017/Top_10.html)
+
  - [ ] Injection
  - [ ] Broken Authentication
  - [x] Sensitive Data Exposure
