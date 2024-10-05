@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>WebApp</title>
+    </head>
+    <body>
+        <h1> Hello World! </h1>
+        <table>
+		<tr>
+		<th style="text-align:left">Username: <td>{{user.username}} 
+        <th style="text-align:left">About me: <td>{{Profile.owner}}
+		</table>
+  
+        <form action='logout/' method="POST">
+			{% csrf_token %}
+            <input type="submit" value="Logout"/>
+        </form>
+        <form action='/' method="GET">
+            <input type="submit" value="list"/>
+        </form>
+
+    </body>
+</html>

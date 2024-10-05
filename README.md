@@ -14,4 +14,9 @@ you can start the project with
 |----------|----------|
 | admin    | admin    |
 | user     | kissa123 |
+| alice    | RedHatter|
 
+# TODO:
+ [ ] Profile with public posts and private notes/messages
+ [ ] Profile description you can edit with sql injection thingy
+ [ ] accessing private notes page without auths
